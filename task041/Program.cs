@@ -5,15 +5,15 @@
 void PositiveNum()
 {
     Console.Write("Введите количество чисел: ");
-int M = Convert.ToInt32(Console.ReadLine());
-int num = 0;
-int result = 0;
-for (int i = 0; i < M; i++)
-{
-    Console.Write("Введите число: ");
-    num = int.Parse(Console.ReadLine());
-    if (num > 0) result++;
-}
-Console.WriteLine($"Чисел больше нуля: {result}");
+    int M = Convert.ToInt32(Console.ReadLine());
+    int num = 0;
+    int result = 0;
+    for (int i = 0; i < M; i++)
+    {
+        Console.Write("Введите число: ");
+        num = int.Parse(Console.ReadLine());
+        if (num > 0) result++;
+    }
+    Console.WriteLine($"Чисел больше нуля: {result}");
 }
 PositiveNum();
